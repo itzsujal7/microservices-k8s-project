@@ -1,12 +1,12 @@
 ## Microservices Deployment using Docker & Kubernetes
-```
+
 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-Enabled-blue)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
 ![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
 ![Status](https://img.shields.io/badge/Project-Completed-success)
 
-```
+
 
 #  Microservices Deployment using Docker & Kubernetes
 
@@ -99,10 +99,10 @@ http://order-service
 
 ## Solutions Implemented
 
-Fixed Docker image and rebuilt container
-Corrected containerPort and targetPort
-Renamed Dockerfile properly
-Verified service DNS and connectivity
+Fixed Docker image and rebuilt container\n
+Corrected containerPort and targetPort\n
+Renamed Dockerfile properly\n
+Verified service DNS and connectivity\n
 
 ## Outcome
 
