@@ -98,17 +98,17 @@ http://order-service
 
 ## Solutions Implemented
 
-Fixed Docker image and rebuilt container<br>
-Corrected containerPort and targetPort<br>
-Renamed Dockerfile properly<br>
-Verified service DNS and connectivity<br>
+- Fixed Docker image and rebuilt container<br>
+- Corrected containerPort and targetPort<br>
+- Renamed Dockerfile properly<br>
+- Verified service DNS and connectivity<br>
 
 ## Outcome
 
-Successfully deployed microservices on Kubernetes<br>
-Enabled inter-service communication<br>
-Implemented autoscaling using HPA<br>
-Integrated persistent storage using PV/PVC<br>
+- Successfully deployed microservices on Kubernetes<br>
+- Enabled inter-service communication<br>
+- Implemented autoscaling using HPA<br>
+- Integrated persistent storage using PV/PVC<br>
 
 ## Author
 
