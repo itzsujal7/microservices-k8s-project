@@ -1,6 +1,11 @@
-```md id="badges"
+## Microservices Deployment using Docker & Kubernetes
+```
+
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-Enabled-blue)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
+![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
+![Status](https://img.shields.io/badge/Project-Completed-success)
+
 ```
 
 #  Microservices Deployment using Docker & Kubernetes
@@ -46,6 +51,7 @@ Each service is containerized using Docker and deployed on Kubernetes with scala
 ---
 
 ##  Project Structure
+```
 microservices-k8s-project/
 │
 ├── user-service/
@@ -54,7 +60,7 @@ microservices-k8s-project/
 ├── k8s/
 ├── screenshots/
 └── README.md
-
+```
 ---
 
 ##  How to Run
@@ -70,14 +76,41 @@ kubectl apply -f k8s/
 ```
 
 ## 3 Verify Pods
+```bash
 kubectl get pods
+```
 
 ## 4 Access Application
+```bash
 minikube service user-service
-
+```
 ## 5 Inter-Service Communication
 Services communicate internally using ClusterIP:
 
 http://product-service
 http://order-service
 
+## Challenges Faced
+
+ Wrong Docker image used in deployment
+ Port mismatch (3000 vs 8080)
+ Dockerfile naming issue (Dockerfile.txt)
+ Service communication failure
+
+## Solutions Implemented
+
+Fixed Docker image and rebuilt container
+Corrected containerPort and targetPort
+Renamed Dockerfile properly
+Verified service DNS and connectivity
+
+## Outcome
+
+Successfully deployed microservices on Kubernetes
+Enabled inter-service communication
+Implemented autoscaling using HPA
+Integrated persistent storage using PV/PVC
+
+## Author
+
+Sujal Pandharpatte
