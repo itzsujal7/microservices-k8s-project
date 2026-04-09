@@ -91,24 +91,24 @@ http://order-service
 
 ## Challenges Faced
 
- Wrong Docker image used in deployment
- Port mismatch (3000 vs 8080)
- Dockerfile naming issue (Dockerfile.txt)
- Service communication failure
+ Wrong Docker image used in deployment<br>
+ Port mismatch (3000 vs 8080)<br>
+ Dockerfile naming issue (Dockerfile.txt)<br>
+ Service communication failure<br>
 
 ## Solutions Implemented
 
-Fixed Docker image and rebuilt container\n
-Corrected containerPort and targetPort\n
-Renamed Dockerfile properly\n
-Verified service DNS and connectivity\n
+Fixed Docker image and rebuilt container<br>
+Corrected containerPort and targetPort<br>
+Renamed Dockerfile properly<br>
+Verified service DNS and connectivity<br>
 
 ## Outcome
 
-Successfully deployed microservices on Kubernetes
-Enabled inter-service communication
-Implemented autoscaling using HPA
-Integrated persistent storage using PV/PVC
+Successfully deployed microservices on Kubernetes<br>
+Enabled inter-service communication<br>
+Implemented autoscaling using HPA<br>
+Integrated persistent storage using PV/PVC<br>
 
 ## Author
 
