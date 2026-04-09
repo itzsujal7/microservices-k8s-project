@@ -91,10 +91,10 @@ http://order-service
 
 ## Challenges Faced
 
- Wrong Docker image used in deployment<br>
- Port mismatch (3000 vs 8080)<br>
- Dockerfile naming issue (Dockerfile.txt)<br>
- Service communication failure<br>
+- Wrong Docker image used in deployment<br>
+- Port mismatch (3000 vs 8080)<br>
+- Dockerfile naming issue (Dockerfile.txt)<br>
+- Service communication failure<br>
 
 ## Solutions Implemented
 
