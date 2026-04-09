@@ -8,7 +8,6 @@
 
 
 
-#  Microservices Deployment using Docker & Kubernetes
 
 ##  Project Overview
 This project demonstrates a complete **microservices architecture** deployed using **Docker** and **Kubernetes (Minikube)**.
